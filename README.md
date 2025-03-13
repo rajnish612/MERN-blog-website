@@ -29,7 +29,7 @@ Gen Blog is a **MERN stack-based** blogging platform that allows users to create
 ## 🚀 Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/gen-blog.git
+git clone https://github.com/rajnish612/MERN-blog-website.git
 cd gen-blog
 ```
 
@@ -81,8 +81,7 @@ npm run dev  # Runs on http://localhost:5173
 - **Backend:** Render / Railway / VPS
 - **Database:** MongoDB Atlas
 
-## 📷 Screenshots
-(Add screenshots of your project here)
+
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork and submit a PR.

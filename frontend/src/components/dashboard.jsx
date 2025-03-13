@@ -20,7 +20,7 @@ import AppBar from "@mui/material/AppBar";
 import { useSearchParams } from "react-router-dom";
 import EditCalendarOutlinedIcon from "@mui/icons-material/EditCalendarOutlined";
 import axios from "axios";
-import User from "../../../server/models/user";
+
 
 function Dashboard() {
   const [randomIdx, setRandomIdx] = useState(null);

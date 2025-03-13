@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { Navigate, useParams } from "react-router-dom";
 import axios from "axios";
-import blogs from "../../../server/models/Blogs";
+
 
 function PreviewBlog(props) {
     const token = localStorage.getItem("token");

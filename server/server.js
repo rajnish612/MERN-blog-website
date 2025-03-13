@@ -56,10 +56,7 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(cors({
-    origin: process.env.CLIENT_URL,
-    
-}));
+app.use(cors());
 app.use(passport.initialize());
 
 const port = process.env.PORT || 3000;
